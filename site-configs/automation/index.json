@@ -1,0 +1,11 @@
+{
+  "templates": [
+    {
+      "id": "hacker-news-stories",
+      "name": "Hacker News Stories",
+      "file": "hacker-news-stories.json",
+      "description": "Extract top stories from Hacker News front page",
+      "domain": "news.ycombinator.com"
+    }
+  ]
+}

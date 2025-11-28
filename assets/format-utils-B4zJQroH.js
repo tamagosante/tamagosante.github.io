@@ -1,0 +1,1 @@
+var e=e=>e.toLocaleTimeString([],{hour:`2-digit`,minute:`2-digit`}),t=0,n=()=>(t++,`${Date.now()}-${t}-${Math.random().toString(36).substr(2,9)}`);export{n,e as t};

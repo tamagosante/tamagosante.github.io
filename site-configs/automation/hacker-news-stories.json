@@ -1,0 +1,14 @@
+{
+  "_container": ".athing",
+  "_item": "",
+  "title": ".titleline > a",
+  "url": {
+    "selector": ".titleline > a",
+    "attr": "href"
+  },
+  "site": ".sitestr",
+  "score": {
+    "selector": "~ tr .score",
+    "scope": "document"
+  }
+}

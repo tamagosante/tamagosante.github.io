@@ -1,0 +1,1 @@
+import{a as e}from"./ollama-BVHkfTSZ.js";var t=[`gpt-oss:latest`,`gemma3:4b`,`gemma3:27b`,`qwen2.5:32b`,`qwen3:4b`,`qwen3:30b`,`qwen3-vl:latest`,`qwen3-vl:4b`,`granite3.2-vision`,`granite4:small-h`,`deepseek-r1:32b`],n=new e({baseUrl:`http://localhost:11434`,defaultModel:`gemma3:27b`});export{n,t};
