@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Watcher - Audio recording PWA" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Watcher" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <title>Watcher - Audio Recorder</title>
+    <script type="module" crossorigin src="/assets/index-Cmkaodfg.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-BOZDwKwV.js">
+    <link rel="modulepreload" crossorigin href="/assets/radix-ui-DhHtVSYQ.js">
+    <link rel="modulepreload" crossorigin href="/assets/utils-CGefl9Xh.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-utils-BxIQ3qGg.js">
+    <link rel="modulepreload" crossorigin href="/assets/icons-Cf9puwNc.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CQDt23_a.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Update title if running on localhost:517x (preview mode)
+      if (window.location.hostname === 'localhost' && window.location.port.startsWith('517')) {
+        document.title = '🟡 PREVIEW - Watcher';
+      }
+    </script>
+    <script>
+      if ('serviceWorker' in navigator && import.meta.env.MODE === 'production') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then(registration => {
+            console.log('SW registered: ', registration);
+          }).catch(registrationError => {
+            console.log('SW registration failed: ', registrationError);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

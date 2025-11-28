@@ -1,0 +1,28 @@
+{
+  "domain": "lesswrong.com",
+  "name": "LessWrong",
+  "maxDepth": 10,
+
+  "article": {
+    "containerSelector": ".MultiToCLayout-content",
+    "titleSelector": ".PostsPageTitle-root",
+    "contentSelector": ".PostsPage-postContent"
+  },
+
+  "comments": {
+    "sectionSelector": ".CommentsListMeta-root + div",
+    "commentContainerSelector": ".CommentFrame-node",
+    "commentSelector": ".CommentsItem-root",
+    "childrenSelector": ".CommentsNode-children",
+    "fields": {
+      "title": ".CommentsItemMeta-root .UsersNameDisplay-noColor",
+      "content": ".CommentBody-root"
+    }
+  },
+
+  "containerSelector": ".CommentsItem-root",
+  "fields": {
+    "title": ".CommentsItemMeta-root .UsersNameDisplay-noColor",
+    "content": ".CommentBody-root"
+  }
+}

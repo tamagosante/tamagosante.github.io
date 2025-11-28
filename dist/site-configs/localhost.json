@@ -1,0 +1,9 @@
+{
+  "domain": "localhost",
+  "name": "Demo (LessWrong-style)",
+  "containerSelector": ".CommentFrame-body",
+  "fields": {
+    "title": ".CommentsItemMeta-root .UsersNameDisplay-noColor",
+    "content": ".CommentBody-root"
+  }
+}
