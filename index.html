@@ -24,6 +24,16 @@
     <link rel="stylesheet" crossorigin href="/assets/index-CQDt23_a.css">
   </head>
   <body>
+    <!-- SPA redirect handler for GitHub Pages -->
+    <script>
+      (function() {
+        var redirectPath = sessionStorage.getItem('spa-redirect-path');
+        if (redirectPath) {
+          sessionStorage.removeItem('spa-redirect-path');
+          history.replaceState(null, '', redirectPath);
+        }
+      })();
+    </script>
     <div id="root"></div>
     <script>
       // Update title if running on localhost:517x (preview mode)
