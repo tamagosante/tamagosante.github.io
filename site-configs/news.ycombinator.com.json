@@ -1,0 +1,25 @@
+{
+  "domain": "news.ycombinator.com",
+  "name": "Hacker News",
+  "maxDepth": 10,
+
+  "article": {
+    "containerSelector": "#hnmain",
+    "titleSelector": ".titleline",
+    "contentSelector": ".titleline"
+  },
+
+  "comments": {
+    "sectionSelector": ".comment-tree",
+    "commentContainerSelector": "tr.athing.comtr",
+    "commentSelector": "td.default",
+    "indent": {
+      "selector": "td.ind",
+      "attribute": "indent"
+    },
+    "fields": {
+      "title": ".hnuser",
+      "content": ".commtext"
+    }
+  }
+}

@@ -18,11 +18,5 @@
       "title": ".CommentsItemMeta-root .UsersNameDisplay-noColor",
       "content": ".CommentBody-root"
     }
-  },
-
-  "containerSelector": ".CommentsItem-root",
-  "fields": {
-    "title": ".CommentsItemMeta-root .UsersNameDisplay-noColor",
-    "content": ".CommentBody-root"
   }
 }

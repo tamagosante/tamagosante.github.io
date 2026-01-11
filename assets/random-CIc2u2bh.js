@@ -1,1 +1,0 @@
-function a(){return Math.random().toString(36).substring(2,9)}let n=0;function o(){let t=Date.now().toString(25);return t+=n++,`${a()}-${t}`}function d(){let t=Date.now().toString(25);return t+="_"+n++,t}export{a,d as b,o as g};
