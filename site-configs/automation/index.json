@@ -6,6 +6,12 @@
       "file": "hacker-news-stories.json",
       "description": "Extract top stories from Hacker News front page",
       "domain": "news.ycombinator.com"
+    },
+    {
+      "id": "f4d3n",
+      "name": "F4D3N",
+      "file": "f4d3n.json",
+      "description": "F4D3N extraction template"
     }
   ]
 }

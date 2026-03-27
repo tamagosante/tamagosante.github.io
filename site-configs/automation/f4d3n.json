@@ -1,0 +1,55 @@
+{
+  "thread": {
+    "_container": {
+      "selector": "[aria-label=\"Column body\"]",
+      "index": null
+    },
+    "_item": "",
+    "original": {
+      "author": {
+        "selector": "a.x1i10hfl.xjbqb8w.x1ejq31n.x18oe1m7.x1sy0etr.xstzfhl.x972fbf.x10w94by.x1qhh985.x14e42zd.x9f619.x1ypdohk.xt0psk2.x3ct3a4.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x16tdsg8.x1hl2dhg.xggy1nq.x1a2a7pz.xw2npq5.xy3z9c9.x1citr7e.x11smg1a.xt0b8zv",
+        "index": null
+      },
+      "timestamp": {
+        "selector": "time.x1rg5ohu.xnei2rj.x2b8uid.xuxw1ft",
+        "index": null
+      },
+      "content": {
+        "selector": "div.x1a6qonq.x6ikm8r.x10wlt62.xj0a0fe.x126k92a.x6prxxf.x7r5mf7.xmgb6t1",
+        "index": null
+      }
+    },
+    "topLevelComments": {
+      "_container": {
+        "selector": "div.x78zum5.xdt5ytf > div.x9f619.x1n2onr6.x1ja2u2z",
+        "index": null
+      },
+      "_item": {
+        "selector": "",
+        "index": null
+      },
+      "responses": {
+        "_container": {
+          "selector": "div.x1a2a7pz.x1n2onr6",
+          "index": null
+        },
+        "_item": {
+          "selector": "div.x1n2onr6.x1ypdohk.x1f9n5g.x17dsfyh.xzzag5r.x1losyl9.xz9dl7a",
+          "index": null
+        },
+        "author": {
+          "selector": "span.x1lliihq.x193iq5w.x6ikm8r.x10wlt62.xlyipyv.xuxw1ft",
+          "index": null
+        },
+        "timestamp": {
+          "selector": "time.x1rg5ohu.xnei2rj.x2b8uid.xuxw1ft",
+          "index": null
+        },
+        "content": {
+          "selector": "div.x1xdureb.xkbb5z.x13vxnyz",
+          "index": null
+        }
+      }
+    }
+  }
+}
