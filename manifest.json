@@ -25,6 +25,12 @@
   "categories": ["productivity", "utilities"],
   "shortcuts": [
     {
+      "name": "Ghi Chú",
+      "short_name": "Ghi Chú",
+      "description": "Open the note-taking app",
+      "url": "/ghichu/"
+    },
+    {
       "name": "Start Recording",
       "short_name": "Record",
       "description": "Start a new audio recording",
