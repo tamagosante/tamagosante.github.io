@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-Dw2cE7zH.js";var t=e({globalFacadeRegistry:()=>n}),n=new class{facades=new Map;register(e,t){this.facades.set(e,t)}unregister(e){this.facades.delete(e)}get(e){return this.facades.get(e)}has(e){return this.facades.has(e)}getKeys(){return Array.from(this.facades.keys())}get size(){return this.facades.size}};export{t as n,n as t};
