@@ -1,0 +1,1 @@
+var e={cssFontSize:`18px`,cssLineHeight:`27px`};export{e as t};

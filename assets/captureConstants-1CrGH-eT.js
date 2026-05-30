@@ -1,0 +1,1 @@
+var e=function(e){return e.TEXT=`TEXT`,e}({}),t={pasteWidth:200,nodeGap:50,depthOffset:100};export{e as n,t};
