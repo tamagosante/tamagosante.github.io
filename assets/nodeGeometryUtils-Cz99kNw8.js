@@ -1,0 +1,15 @@
+import{d as e,n as t,r as n}from"./canvasConstantsV2-Daxr8fs9.js";import{n as r,t as i}from"./measureTextWidth-P14lEPmS.js";function a(e,t,n){let r=document.querySelector(`[data-node-id="${e}"]`);if(!r)return null;let i=r.querySelector(`[data-test="markdown-textarea-editor"]`);return i?{scrollHeight:i.scrollHeight,clonedHeight:o(i,t,n),clientWidth:i.clientWidth,method:`actual-textarea`}:null}function o(e,t,n){let r=window.getComputedStyle(e),i=document.createElement(`div`);i.style.cssText=`
+    position: absolute;
+    visibility: hidden;
+    width: ${e.clientWidth}px;
+    font-family: ${r.fontFamily};
+    font-size: ${n||r.fontSize};
+    font-weight: ${r.fontWeight};
+    line-height: ${n?`${Math.round(parseFloat(n)*1.5)}px`:r.lineHeight};
+    padding: ${r.padding};
+    box-sizing: ${r.boxSizing};
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  `,i.textContent=t,document.body.appendChild(i);let a=i.scrollHeight;return document.body.removeChild(i),a}function s(t,n,i){let o=c(i),s=e(o).padding*2;if(o&&i?.id){let e=a(i.id,t,o);if(e)return e.clonedHeight}let l=r(t,{containerWidth:n,fontSize:o,skipPaddingSubtraction:!0})+s,u=t.split(`
+`).filter(e=>e.trim().startsWith(`|`)||e.includes(`|---`)),d=u.length>=2,f=0;return d&&(f=u.length*4+(u.length+1)+8,l+=f),l}function c(e){return e?.styles?.fontSize}function l(e,t,n){return r(e,{containerWidth:t,fontSize:c(n),skipPaddingSubtraction:!0})}var{DEFAULT_NODE_WIDTH:u,DEFAULT_NODE_HEIGHT:d}=n,f=e=>{let t=e.x,n=e.y,r=e.width??u,i=e.height??d;return{x1:t,y1:n,x2:t+r,y2:n+i}},p=(e,t,n)=>{let r=n?new Set(n):null;for(let n=t.length-1;n>=0;n--){let i=t[n];if(r&&r.has(i.id))continue;let a=f(i);if(e.x>=a.x1&&e.x<=a.x2&&e.y>=a.y1&&e.y<=a.y2)return i}return null},m=e=>{let t=e.x,n=e.y,r=e.width??u,i=e.height??d;return{x:t+r/2,y:n+i/2}},h=(e,t)=>e.x===t.x&&e.y===t.y,g=()=>{let e=document.querySelector(`textarea[data-node-textarea]`),t=document.querySelector(`.markdown-textarea[data-node-textarea]`),n=e||t;if(n){let e=window.getComputedStyle(n).lineHeight;if(e&&e!==`normal`){let t=parseFloat(e);if(!isNaN(t))return t}}},_=(e,n,r)=>{let a=i(e)+t.textNodeXPadding;return{width:a,height:s(e,a,r)}},v=(e,t)=>{let n=f(e),r=f(t);return n.x1>=r.x1&&n.y1>=r.y1&&n.x2<=r.x2&&n.y2<=r.y2},y=(e,t)=>{let n=f(t);return e.filter(e=>{if(e.id===t.id)return!1;let r=f(e);return!(r.x2<n.x1||r.x1>n.x2||r.y2<n.y1||r.y1>n.y2)})},b=(e,t=`bottom`)=>{if(!e.length)return null;switch(t){case`left`:return e.reduce((e,t)=>t.x<e.x?t:e,e[0]);case`right`:return e.reduce((e,t)=>t.x+(t.width??u)>e.x+(e.width??u)?t:e,e[0]);case`top`:return e.reduce((e,t)=>t.y<e.y?t:e,e[0]);case`bottom`:return e.reduce((e,t)=>t.y+(t.height??d)>e.y+(e.height??d)?t:e,e[0]);default:return null}};export{m as a,v as c,l as d,b as i,h as l,p as n,f as o,g as r,y as s,_ as t,s as u};
