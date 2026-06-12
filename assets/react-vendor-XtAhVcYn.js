@@ -1,1 +1,0 @@
-import{t as e}from"./rolldown-runtime-Dw2cE7zH.js";import{Kt as t}from"./radix-ui-B98_YIS_.js";var n=e((e=>{var n=t();e.createRoot=n.createRoot,e.hydrateRoot=n.hydrateRoot}));export{n as t};

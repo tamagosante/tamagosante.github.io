@@ -1,0 +1,1 @@
+function e(e,t,n=300,r=15,i=10,a=200){let o=e+r,s=t+r;return o+n>window.innerWidth&&(o=window.innerWidth-n-i),s+a>window.innerHeight&&(s=window.innerHeight-a-i),o<i&&(o=i),s<i&&(s=i),{left:o,top:s}}export{e as t};

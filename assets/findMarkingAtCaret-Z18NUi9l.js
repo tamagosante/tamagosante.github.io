@@ -1,0 +1,1 @@
+function e(e,t){if(t==null)return null;let n=e.filter(e=>e.start<=t&&t<=e.end);return n.length===0?null:n.reduce((e,t)=>t.end-t.start<e.end-e.start?t:e)}export{e as t};

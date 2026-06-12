@@ -1,1 +1,0 @@
-function e(e,t,n=Date.now()){if(t?.isProcessing||t?.isOpened)return!0;let r=new Date(e.lastModified).getTime();return Number.isFinite(r)&&r>n-36e5}function t(t,n,r=Date.now()){let i=[],a=[];for(let o of t)e(o,n[o.id],r)?i.push(o):a.push(o);return{recent:i,past:a}}export{t};

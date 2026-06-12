@@ -1,0 +1,1 @@
+var e=function(e){return e.RECTANGLE=`rectangle`,e.CIRCLE=`circle`,e.UNDERLINE=`underline`,e.STRIKETHROUGH=`strikethrough`,e}({}),t=function(e){return e.FILLED=`filled`,e.SOLID=`solid`,e.DASHED=`dashed`,e.WAVY=`wavy`,e}({});export{e as n,t};

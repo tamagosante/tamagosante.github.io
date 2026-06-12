@@ -1,0 +1,1 @@
+var e=function(e){return e.EN=`en`,e.VI=`vi`,e.DE=`de`,e}({}),t={[e.EN]:`EN`,[e.VI]:`VI`,[e.DE]:`DE`},n={[e.EN]:`English`,[e.VI]:`Vietnamese`,[e.DE]:`German`},r={[e.EN]:`🇬🇧`,[e.VI]:`🇻🇳`,[e.DE]:`🇩🇪`},i=e.EN,a=[e.EN,e.VI,e.DE];export{t as a,r as i,i as n,n as o,e as r,a as t};

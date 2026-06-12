@@ -10,7 +10,7 @@
   },
 
   "comments": {
-    "sectionSelector": ".CommentsListMeta-root + div",
+    "sectionSelector": ".CommentsListSection-root",
     "commentContainerSelector": ".CommentFrame-node",
     "commentSelector": ".CommentsItem-root",
     "childrenSelector": ".CommentsNode-children",

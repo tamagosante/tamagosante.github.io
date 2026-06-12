@@ -1,0 +1,1 @@
+function e(e,t){return e.some(e=>e.start===t.start&&e.end===t.end&&e.shape===t.shape&&e.line===t.line&&e.color===t.color&&e.weight===t.weight)}export{e as t};
