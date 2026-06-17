@@ -1,0 +1,1 @@
+var e=e=>e.tagName===`INPUT`||e.tagName===`TEXTAREA`||e.tagName===`SELECT`||e.isContentEditable;function t(){let e=document.activeElement;if(!e)return null;let t=[`INPUT`,`TEXTAREA`].includes(e.nodeName??``),n=e.contentEditable===`true`;return t||n}export{e as n,t};
