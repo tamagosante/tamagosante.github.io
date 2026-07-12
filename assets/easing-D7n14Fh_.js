@@ -1,0 +1,1 @@
+var e=e=>e<.5?2*e*e:1-(-2*e+2)**2/2,t=e=>1-(1-e)**3;export{t as n,e as t};

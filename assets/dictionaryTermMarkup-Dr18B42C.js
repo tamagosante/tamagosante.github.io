@@ -1,0 +1,1 @@
+var e=`data-dict-term`,t=`dictionary-term cursor-help underline decoration-dotted underline-offset-2 decoration-amber-500 text-amber-700 dark:text-amber-300`;export{e as n,t};

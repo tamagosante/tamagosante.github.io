@@ -1,0 +1,1 @@
+var e=class{subscribers=new Set;emit(e){for(let t of this.subscribers)t(e)}subscribe(e){return this.subscribers.add(e),()=>this.subscribers.delete(e)}clear(){this.subscribers.clear()}};export{e as t};
