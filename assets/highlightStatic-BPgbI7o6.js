@@ -1,2 +1,0 @@
-import{s as e}from"./typescript-BDHmM6HW.js";function t(t,n){let r=t.split(`
-`),i=n.l1.initialState(),a=[];for(let e of r){let t=n.l1.scanLine(e,i);a.push(t.tokens),i=t.endState}return n.l2?e(a,n.l2.parse(a)):a}export{t};

@@ -1,1 +1,0 @@
-var e=`labotl-main`,t=`labotl · main`,n=`Laboratory hosting labotl ladder implementations (calendar, …) — pick a specimen to inspect its rungs and iterate on the architecture.`;`${e}`;var r=20260711;export{r as i,e as n,t as r,n as t};
