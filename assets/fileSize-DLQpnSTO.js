@@ -1,0 +1,1 @@
+var e=1024;function t(t){return t<e?`${t} B`:`${(t/e).toFixed(1)} KB`}export{t};

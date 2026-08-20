@@ -1,0 +1,1 @@
+var e=`[-*+]`,t=/^```([a-zA-Z0-9_+\-]*)\s*$/,n=/^```\s*$/,r=/[│┃]/,i=new Set([...`┌┬┐├┼┤└┴┘─│`,...`┏┳┓┣╋┫┗┻┛━┃`]),a=/^\s*[┌┏][─━┬┳\s]*[┐┓]\s*$/,o=/^\s*[└┗][─━┴┻\s]*[┘┛]\s*$/,s=/\s+/g,c=/\|/g,l=`markdown-table-colgroup`,u=`markdown-table-col`;export{e as a,c,s as d,a as i,l,o as n,n as o,r,t as s,i as t,u};
