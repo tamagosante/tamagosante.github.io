@@ -1,1 +1,0 @@
-var e=[`id`,`type`,`x`,`y`,`width`,`height`,`content`,`layerId`,`version`,`createdAt`,`updatedAt`];export{e as t};

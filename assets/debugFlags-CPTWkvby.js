@@ -1,0 +1,1 @@
+var e={showDebugPanel:!1,showDebugAudioButtons:!1,enableVerboseLogging:!0,clearLogsOnReload:!0,debugPanelCollapsedByDefault:!0,enableDevFeatures:!1,clearConsole:!1,showLineNumbers:!1,vimEditor:{showDebugSection:!1},vimUi:{enableScrollEditor:!1},grid:{enterIntoNewLine:!1,startCellAtCol0WhenEnterNormalMode:!0,scroll:{scrollIntoView:!0,scrollTop:!1}}};export{e as t};

@@ -1,1 +1,0 @@
-var e=[`h1`,`h2`,`h3`,`h4`,`h5`,`h6`],t=[`system`,`serif`,`mono`],n={system:`Sans`,serif:`Serif`,mono:`Monospace`},r=[`compact`,`normal`,`large`],i={compact:`Compact`,normal:`Normal`,large:`Large`},a=`none`;export{r as a,n as i,a as n,i as o,t as r,e as t};
