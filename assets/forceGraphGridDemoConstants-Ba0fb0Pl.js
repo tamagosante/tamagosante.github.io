@@ -1,0 +1,1 @@
+import{a as e,r as t}from"./CanvasModelsV2-d64xZ-r7.js";var n={ID:`force-graph-grid`,LABEL:`Force Graph Grid`,DESCRIPTION:`The whole canvas as a d3-force workspace (GFGM) — the real canvas engine, booted into GRID + FORCE_GRAPH.`,ORDER:20260726},r={MODE:t.GRID,SUB_MODE:e.FORCE_GRAPH};export{r as n,n as t};

@@ -1,0 +1,1 @@
+var e=/<command-name>(\/[^<]+)<\/command-name>/,t=/<command-args>([\s\S]*?)<\/command-args>/;function n(n){let r=e.exec(n);if(!r)return null;let i=t.exec(n)?.[1]?.trim();return i?{name:r[1].trim(),args:i}:{name:r[1].trim()}}export{n as t};

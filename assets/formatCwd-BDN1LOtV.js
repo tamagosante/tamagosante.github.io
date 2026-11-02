@@ -1,0 +1,1 @@
+var e=/^\/home\/[^/]+\//,t=t=>t?t.replace(e,`~/`):``;export{t};

@@ -1,0 +1,1 @@
+var e=`Arrow Alignment (Advanced)`,t=[e,`arrow`,`alignment`,`curve`,`edge strategy`,`radial`,`attach`,`bias`];export{e as n,t};

@@ -1,0 +1,1 @@
+var e=0;function t(){e+=1;let t=!1;return()=>{t||(t=!0,--e)}}function n(){return e>0}export{n,t};

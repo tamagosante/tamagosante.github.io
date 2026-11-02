@@ -1,0 +1,1 @@
+var e=`input`;export{e as t};

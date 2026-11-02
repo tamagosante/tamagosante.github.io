@@ -1,0 +1,1 @@
+function e(e){let t=e>>>0;return()=>{t=t+1831565813|0;let e=Math.imul(t^t>>>15,1|t);return e=e+Math.imul(e^e>>>7,61|e)^e,((e^e>>>14)>>>0)/4294967296}}function t(t){let n=e(t),r=(e,t)=>e+Math.floor(n()*(t-e+1));return{int:r,pick:e=>e[r(0,e.length-1)],chance:e=>n()<e}}export{e as n,t};

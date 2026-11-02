@@ -1,0 +1,1 @@
+var e={recent:`recent`,pastSessions:`pastSessions`},t=[{value:e.recent,label:`Pin to Recent`},{value:e.pastSessions,label:`Move to Past Sessions`},{value:null,label:`Auto (time-based)`}];export{t as n,e as t};

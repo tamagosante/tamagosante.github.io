@@ -1,0 +1,1 @@
+var e={presets:[],activeId:null},t=`transcription-presets`,n=`user`,r=`transcription-presets-change`,i=`Preset`,a=` (copy)`,o=`preset-`;export{n as a,r as i,e as n,t as o,i as r,o as s,a as t};

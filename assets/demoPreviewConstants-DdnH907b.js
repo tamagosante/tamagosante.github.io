@@ -1,0 +1,1 @@
+var e={width:640,height:480},t={x:140,y:96};export{e as n,t};

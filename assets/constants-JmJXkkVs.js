@@ -1,0 +1,1 @@
+var e=`Terminal Node Compact`,t=`terminal-node-compact-demo-host`,n={full:`calc(100vw / 3)`,nameOnly:200},r={inContext:`In context:`,pickSeparator:` / `};export{n as i,t as n,r,e as t};

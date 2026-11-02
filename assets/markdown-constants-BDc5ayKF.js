@@ -1,0 +1,1 @@
+var e=`data-caret-line`,t=`[-*+]`,n=/^```([a-zA-Z0-9_+\-]*)\s*$/,r=/^```\s*$/,i=/[│┃]/,a=new Set([...`┌┬┐├┼┤└┴┘─│`,...`┏┳┓┣╋┫┗┻┛━┃`]),o=/^\s*[┌┏][─━┬┳\s]*[┐┓]\s*$/,s=/^\s*[└┗][─━┴┻\s]*[┘┛]\s*$/,c=/\s+/g,l=/\|/g,u=`markdown-table-colgroup`,d=`markdown-table-col`;export{t as a,n as c,d,c as f,o as i,l,s as n,e as o,i as r,r as s,a as t,u};

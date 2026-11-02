@@ -1,0 +1,1 @@
+function e(e){let t=new Date,n=new Date(e),r=t.getTime()-n.getTime(),i=Math.floor(r/6e4),a=Math.floor(r/36e5),o=Math.floor(r/864e5),s=Math.floor(o/7),c=Math.floor(o/365);return i<1?`just now`:i<60?`${i} min ago`:a<24?`${a} ${a===1?`hour`:`hours`} ago`:o<7?`${o} ${o===1?`day`:`days`} ago`:s<52?`${s} ${s===1?`week`:`weeks`} ago`:`${c} ${c===1?`year`:`years`} ago`}export{e as t};

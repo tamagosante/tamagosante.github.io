@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-XKyaHtl9.js";var t=e({getLastKnownModified:()=>a,setLastKnownModified:()=>i}),n=`[ApiSync]`,r=null;function i(e){r=e,console.log(n,`lastKnownModified set to:`,e)}function a(){return r}export{t as n,i as r,a as t};

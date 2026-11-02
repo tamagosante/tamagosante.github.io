@@ -1,0 +1,1 @@
+function e(e){let t=e.state?.activeProjectId??null,n=t?e.state?.projects[t]??null:null,r=n?.activeWorkspaceId??null,i=r?n?.workspaces[r]??null:null,a=i?.activeCanvasId??null;return{project:n,workspace:i,canvas:a?i?.canvases[a]??null:null,path:{projectId:t,workspaceId:r,canvasId:a}}}export{e as t};

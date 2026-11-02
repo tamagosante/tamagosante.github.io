@@ -1,0 +1,1 @@
+export{t as GherkinData}from"./SelfImprovingDemoPage-caOGdJmq.js";

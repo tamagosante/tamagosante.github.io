@@ -1,0 +1,1 @@
+var e=`message`;function t(t,n){return`/claude/${t}?${e}=${encodeURIComponent(n)}`}export{t as n,e as t};

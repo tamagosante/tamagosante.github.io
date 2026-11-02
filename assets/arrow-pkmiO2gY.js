@@ -1,0 +1,1 @@
+var e=[`Straight`,`Quadratic`,`Cubic`,`Step`,`Orthogonal`,`TreeCubic`,`TreeLStep`,`TreeZShape`],t=[`center`,`aligned`,`spread`],n={Straight:`Straight`,Quadratic:`Quadratic`,Cubic:`Cubic`,Step:`Step (L-shaped)`,Orthogonal:`Orthogonal (Z-shaped)`,TreeCubic:`Tree: Cubic`,TreeLStep:`Tree: L-Step`,TreeZShape:`Tree: Z-Shape`};export{e as n,n as r,t};

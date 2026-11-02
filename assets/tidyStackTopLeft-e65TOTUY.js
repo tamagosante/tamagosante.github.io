@@ -1,0 +1,1 @@
+function e(e){return e.reduce((e,t)=>t.y<e.y||t.y===e.y&&t.x<e.x?t:e)}export{e as t};

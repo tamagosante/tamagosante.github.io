@@ -1,0 +1,1 @@
+@keyframes split-bookmark-caret-blink{0%{opacity:1}50%{opacity:0}}.split-bookmark-caret-blink{animation:1s step-end infinite split-bookmark-caret-blink}

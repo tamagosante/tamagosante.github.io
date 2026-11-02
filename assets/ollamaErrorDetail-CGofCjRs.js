@@ -1,0 +1,1 @@
+async function e(e){try{let t=await e.json();return typeof t.error==`string`?t.error:t.error?.message}catch{return}}export{e as t};

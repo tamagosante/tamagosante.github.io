@@ -1,0 +1,1 @@
+var e=(e,t)=>e.x<t.x+t.width&&e.x+e.width>t.x&&e.y<t.y+t.height&&e.y+e.height>t.y,t=e=>({x:e.x,y:e.y,width:e.width??100,height:e.height??50});export{e as n,t};

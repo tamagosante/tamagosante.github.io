@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{d as t}from"./forms-CGyoCzTL.js";var n=e(t(),1),r=new Map,i={register(e,t){r.set(e,t)},unregister(e){r.delete(e)},trigger(e){r.get(e)?.()}};function a(e,t){let r=(0,n.useRef)(t);r.current=t,(0,n.useEffect)(()=>{if(e)return i.register(e,()=>r.current()),()=>i.unregister(e)},[e])}export{a as n,i as t};

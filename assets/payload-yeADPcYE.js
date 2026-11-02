@@ -1,0 +1,1 @@
+import{Cl as e,nu as t}from"./CanvasNodeBuilderV2-B3v3nlbp.js";import"./constants-R9pIZj9W.js";var n={source:``,ownedNodeIds:[]},r=t=>!!t&&e(t,`node-query:node`),i=e=>(r(e)?e.data?.payload:void 0)??n,a=e=>({pluginType:t,payload:e});export{a as i,i as n,r,n as t};

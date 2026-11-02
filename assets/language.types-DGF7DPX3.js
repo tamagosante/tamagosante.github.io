@@ -1,0 +1,1 @@
+var e=function(e){return e.EN=`en`,e.VI=`vi`,e.DE=`de`,e.ZH=`zh`,e}({}),t={en:`EN`,vi:`VI`,de:`DE`,zh:`ZH`},n={en:`English`,vi:`Vietnamese`,de:`German`,zh:`Chinese`},r={en:`🇬🇧`,vi:`🇻🇳`,de:`🇩🇪`,zh:`🇨🇳`},i=[`en`,`vi`,`zh`];export{n as a,t as i,e as n,r,i as t};

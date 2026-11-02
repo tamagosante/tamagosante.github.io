@@ -1,1 +1,0 @@
-var e=`data-shortcut-passthrough`,t=e=>e.tagName===`INPUT`||e.tagName===`TEXTAREA`||e.tagName===`SELECT`||e.isContentEditable;function n(){let e=document.activeElement;if(!e)return null;if(e.hasAttribute(`data-shortcut-passthrough`))return!1;let t=[`INPUT`,`TEXTAREA`].includes(e.nodeName??``),n=e.contentEditable===`true`;return t||n}export{n,t as r,e as t};

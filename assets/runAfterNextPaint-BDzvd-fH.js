@@ -1,0 +1,1 @@
+function e(e){requestAnimationFrame(()=>setTimeout(e,0))}export{e as t};

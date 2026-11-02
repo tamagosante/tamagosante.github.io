@@ -1,0 +1,1 @@
+var e=`pointer-events-none absolute z-10 overflow-hidden whitespace-pre text-center transition-none`,t=`caret-transparent`,n=`caret-style`,r=`Caret style`,i=`caret-size`,a=`Caret size & offset`,o=`Width`,s=`Height`,c=`Offset (chars)`,l=`#ffffff`;export{r as a,t as c,i,e as l,c as n,n as o,a as r,o as s,s as t,l as u};

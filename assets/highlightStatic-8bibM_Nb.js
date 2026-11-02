@@ -1,0 +1,2 @@
+import{c as e}from"./typescript-OVNlME_F.js";function t(t,n){let r=t.split(`
+`),i=n.l1.initialState(),a=[];for(let e of r){let t=n.l1.scanLine(e,i);a.push(t.tokens),i=t.endState}if(n.l2){let t=n.l2.parse(a);return e(a,t)}return a}export{t};

@@ -1,0 +1,1 @@
+var e={Idle:`idle`,Rest:`rest`,Blink:`blink`,Curious:`curious`,WalkLeft:`walk-left`,WalkRight:`walk-right`,Busy:`busy`,Celebrate:`celebrate`,Stumble:`stumble`},t=Object.values(e);export{e as n,t};
