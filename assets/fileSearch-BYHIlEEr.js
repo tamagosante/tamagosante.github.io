@@ -1,0 +1,1 @@
+function e(e){return{path:e,filename:e.slice(e.lastIndexOf(`/`)+1)}}function t(e,t){let n=t.trim().toLowerCase();return n?e.filter(e=>e.toLowerCase().includes(n)):[]}function n(e,t){let n=t.trim().toLowerCase(),r=e.toLowerCase().indexOf(n);if(!n||r<0)return[];let i=[];for(let e=0;e<n.length;e+=1)i.push(r+e);return i}export{t as n,e as r,n as t};

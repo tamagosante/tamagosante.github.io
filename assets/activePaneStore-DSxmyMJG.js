@@ -1,0 +1,1 @@
+import{t as e}from"./react-BeD3v4Zf.js";var t=e(()=>({byNodeId:{}})),n=(e,t)=>e.socket===t.socket&&e.paneId===t.paneId&&e.tabTitle===t.tabTitle&&e.title===t.title,r=(e,r)=>t.setState(t=>{let i=t.byNodeId[e];if(r&&i&&n(i,r)||!r&&!i)return t;let{byNodeId:a}=t,o={...a};return r?o[e]=r:delete o[e],{byNodeId:o}});export{t as n,r as t};

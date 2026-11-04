@@ -1,0 +1,1 @@
+import{Cl as e,Zl as t}from"./CanvasNodeBuilderV2-BXSctHig.js";import{p as n}from"./logicNodeConstants-DxrW4rH5.js";var r=()=>({gate:n}),i=r(),a=t=>!!t&&e(t,`logic:node`),o=e=>(a(e)?e.data?.payload:void 0)??i,s=e=>({pluginType:t,payload:e});export{s as i,o as n,a as r,r as t};

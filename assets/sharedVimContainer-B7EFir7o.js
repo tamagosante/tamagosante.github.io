@@ -1,1 +1,0 @@
-import{s as e,u as t}from"./insertEscapeChord-ChIdTQq1.js";import{l as n,u as r}from"./strings-B8noKCVE.js";import{i,n as a,r as o}from"./VimInputHandlerV2-B5jZEPCI.js";function s(){let s=window.__vimContainer;if(s)return s;let c=n.createContainer();return r.register(c),e.register(c),i.register(c),t.register(c),o.register(c),a.register(c),window.__vimContainer=c,c}export{s as t};

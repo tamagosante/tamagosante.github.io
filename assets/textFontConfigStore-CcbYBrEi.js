@@ -1,0 +1,1 @@
+import{t as e}from"./CanvasConfigurationV2-B0KEXE3C.js";import{x as t}from"./CanvasNodeBuilderV2-BXSctHig.js";function n(n){e.text.currentFontFamily=n,t.setState(e=>({...e,preferences:{...e.preferences,canvasConfig:{...e.preferences?.canvasConfig??{},text:{...e.preferences?.canvasConfig?.text??{},currentFontFamily:n}}}}))}export{n as t};

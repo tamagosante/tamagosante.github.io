@@ -1,1 +1,0 @@
-import{c as e,o as t}from"./ollama-BukLIovg.js";var n=[`gpt-oss:latest`,`gemma4:e4b-mlx`,`gemma3:4b`,`gemma3:27b`,`qwen2.5:32b`,`qwen3:4b`,`qwen3:30b`,`qwen3-vl:8b`,`qwen3-vl:4b`,`granite3.2-vision`,`granite4:small-h`,`deepseek-r1:32b`],r=e,i=`/ollama-proxy`,a=new t({baseUrl:i,defaultModel:r});export{i as n,a as r,n as t};

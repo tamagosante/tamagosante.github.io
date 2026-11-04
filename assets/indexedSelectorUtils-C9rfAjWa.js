@@ -1,0 +1,1 @@
+export{n as querySelectorWithIndex}from"./CustomCaptureV2DemoPage-wjbhJ21O.js";

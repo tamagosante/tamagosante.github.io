@@ -1,0 +1,1 @@
+var e={filenameFirst:!0,wordRuns:!0,wordRunsAfterFirst:!0,smartCase:!0},t=Object.keys(e),n=(e,n)=>e===n||t.every(t=>e[t]===n[t]);export{t as n,n as r,e as t};
