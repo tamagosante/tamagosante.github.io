@@ -1,0 +1,1 @@
+var e=`\x1B[3~`,t=[{id:`enter`,label:`Enter`,bytes:`\r`},{id:`ctrl-c`,label:`Ctrl-C`,bytes:``},{id:`ctrl-d`,label:`Ctrl-D`,bytes:``},{id:`tab`,label:`Tab`,bytes:`	`},{id:`escape`,label:`Esc`,bytes:`\x1B`},{id:`up`,label:`↑`,bytes:`\x1B[A`},{id:`down`,label:`↓`,bytes:`\x1B[B`}];export{t as n,e as t};

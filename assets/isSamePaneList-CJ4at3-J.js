@@ -1,0 +1,1 @@
+var e=(e,t)=>JSON.stringify(e.panes)===JSON.stringify(t.panes)&&JSON.stringify(e.errors)===JSON.stringify(t.errors);export{e as t};

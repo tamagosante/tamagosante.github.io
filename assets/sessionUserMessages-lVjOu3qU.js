@@ -1,0 +1,1 @@
+import{t as e}from"./claudeApiService-wXGCMn4s.js";import{s as t}from"./userMessages.constants-BePTpMUj.js";var n=1,r=``,i=(t,n,r,i)=>e.searchUserMessages(n,{...r,sessionId:t,page:i}),a=async(e,a=t)=>{let o=[];for(let t=n;;t++){let n=await i(e,r,a,t);if(o.push(...n.results),n.results.length===0||o.length>=n.totalCount)return o}};export{a as n,i as t};

@@ -1,0 +1,1 @@
+var e=`data-caret-line`,t=`markdown-table-colgroup`,n=`markdown-table-col`,r=/[​﻿]/g,i=/^[​‌‍⁠﻿]+$/;function a(e){return e.replace(r,``)}function o(e){return i.test(e)}export{n as a,t as i,a as n,e as r,o as t};

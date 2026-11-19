@@ -1,0 +1,1 @@
+var e=`show-old-sessions`,t=`Show old sessions`,n=`Show rows of inactive sessions; off hides them from view without removing them`,r=e=>!!e;export{r as i,t as n,n as r,e as t};

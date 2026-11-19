@@ -1,0 +1,1 @@
+var e=`auto-detect-session-names`,t=`Auto-detect session names`,n=`On pull, add recent named sessions; numbered names like session16 nest under their name parent`,r=e=>!e;export{r as i,t as n,n as r,e as t};

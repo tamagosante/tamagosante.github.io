@@ -1,0 +1,1 @@
+function e(e){let t=e.match(/^(#{1,6}) /);if(t)return t[0];if(e.match(/^- .+/))return`- `;if(e.match(/^\* .+/))return`* `;let n=e.match(/^(\d+)\. .+/);return n?n[0].replace(/ .+$/,` `):e.match(/^> .+/)?`> `:``}export{e as t};

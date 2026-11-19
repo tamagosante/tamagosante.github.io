@@ -1,0 +1,4 @@
+import{m as e,o as t,y as n}from"./VimInputHandlerV2-D0JjUzio.js";var r=`vim-editor-v2-runner`;function i(e){return e.map(e=>({text:e}))}function a(e){return{id:r,mode:n.NORMAL,lines:i(e.initialLines),cursor:{...e.initialCursor}}}function o(e){return t.create({vimState:a(e),paragraphMotionSkipsBlankLines:e.paragraphMotionSkipsBlankLines})}var s=new Set([`Shift`,`Control`,`Alt`,`Meta`,`OS`,`CapsLock`,`Dead`,`Unidentified`]);function c(t){let{key:n}=t;return s.has(n)?null:n.length===1?t.shiftKey?`<Shift>${n}`:n:e.ensureVimModifier(n)}var l=`{|}`,u=`↵`;function d(e){let t=(e.lines??[]).map(e=>e.text),n=e.cursor??{col:0,line:0},r=t.join(`
+`),i=0;for(let e=0;e<n.line&&e<t.length;e++)i+=t[e].length+1;i+=n.col;let a=r.slice(0,i).replaceAll(`
+`,u),o=r.slice(i).replaceAll(`
+`,u);return{line:n.line+1,column:n.col+1,position:i,markdownPosition:i,content:r,cursorContext:`${a}${l}${o}`}}export{o as n,c as r,d as t};

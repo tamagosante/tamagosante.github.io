@@ -1,0 +1,1 @@
+function e(e,t,n){let r=e,i=!0;for(;i;){i=!1;for(let e of n(r))if(t(e)){r=e,i=!0;break}}return r}export{e as t};

@@ -1,0 +1,1 @@
+var e=(t,n)=>t.map(t=>n(t.children?{...t,children:e(t.children,n)}:t)),t=(e,t)=>[...e,t],n=(t,n,r)=>e(t,e=>e.id===n?{...e,children:[...e.children??[],r]}:e),r=(t,n,r)=>e(t,e=>e.id===n?{...e,label:r,title:void 0}:e),i=(e,t)=>e.filter(e=>e.id!==t).map(e=>e.children?{...e,children:i(e.children,t)}:e);export{r as i,t as n,i as r,n as t};

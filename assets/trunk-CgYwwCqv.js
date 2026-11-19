@@ -1,0 +1,1 @@
+var e=(t,n,r=[])=>t.flatMap(t=>{let i=[...r,t];return t.session.id===n?[i]:e(t.children??[],n,i)}),t=(t,n)=>{let r=e(t,n),i=r.find(e=>e[e.length-1].children?.length)??r[0];if(!i)return[];let a=i[i.length-1];return[i.slice(0,-1).reduceRight((e,t)=>({...t,children:[e]}),a)]};export{t};

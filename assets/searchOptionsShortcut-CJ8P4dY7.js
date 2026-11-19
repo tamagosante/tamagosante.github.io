@@ -1,0 +1,1 @@
+var e={KeyC:`matchCase`,KeyW:`wholeWord`},t=`KeyS`,n=e=>e.altKey&&!e.ctrlKey&&!e.metaKey;function r(t){return n(t)?e[t.code]??null:null}var i=e=>n(e)&&e.code===t;export{r as n,i as t};

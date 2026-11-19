@@ -1,0 +1,1 @@
+function e(e){let t=e.lastIndexOf(`/`)+1,n=Math.max(0,e.lastIndexOf(`/`,t-2));return{dir:e.slice(0,n),parent:e.slice(n,t),name:e.slice(t)}}export{e as t};

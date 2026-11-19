@@ -1,0 +1,1 @@
+import{t as e}from"./VimInputHandlerV2-D0JjUzio.js";var t=`data-vim-key-owner`,n=`[${t}]`;function r(){if(document.activeElement?.closest(n))return!0;let t=window.__vimContainer;if(!t)return!1;let r=t.get(e);return!!r.getInstanceMap(r.activeId)}export{r as n,t};

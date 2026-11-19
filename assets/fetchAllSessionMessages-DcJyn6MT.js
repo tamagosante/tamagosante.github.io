@@ -1,0 +1,1 @@
+import{t as e}from"./claudeApiService-wXGCMn4s.js";var t=1,n=1e3,r=(t,r)=>e.getSessionDetails(t,{page:r,pageSize:n});async function i(e){let n=await r(e,t),i=n.pagination?.totalPages??t,a=Array.from({length:Math.max(0,i-t)},(e,t)=>i-t);return{messages:[...await Promise.all(a.map(t=>r(e,t))),n].flatMap(e=>e.messages),metadata:n.metadata}}export{i as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./variants-olTJOyJe.js";var t=[{value:`default`,label:`Default (plain editor)`},...e.map(e=>({value:e.id,label:e.title}))];function n(e){return e??`default`}function r(e){return typeof e==`string`&&e!=="default"?e:null}export{r as n,n as r,t};

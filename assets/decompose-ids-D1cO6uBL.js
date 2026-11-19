@@ -1,0 +1,1 @@
+import{n as e}from"./hanzi-study-constants-CV4qBURb.js";function t(t){if(!t)return[];let n=[];for(let r of t){if(r===`？`)continue;let t=r.codePointAt(0);t!==void 0&&(t>=e.first&&t<=e.last||n.push(r))}return n}export{t};

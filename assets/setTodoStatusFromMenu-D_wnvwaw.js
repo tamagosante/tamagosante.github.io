@@ -1,0 +1,1 @@
+import{T as e}from"./CanvasNodeBuilderV2-D4NFdWtC.js";import{ia as t,ra as n,t as r}from"./flapsFootprint-D9hKQj8l.js";var i=`Todo`,a=`Kanban (global):`,o=`Kanban (in-place):`;function s(i,a,o,s){let c=a.length>1?a:[i];t(c,o,()=>e.getState(),{inPlace:s,footprintOf:r}),n(o)}export{s as i,o as n,i as r,a as t};

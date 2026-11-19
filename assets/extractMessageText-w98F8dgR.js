@@ -1,1 +1,0 @@
-function e(e){return typeof e==`string`?e:Array.isArray(e)?e.find(e=>typeof e==`object`&&!!e&&`type`in e&&e.type===`text`)?.text:e?.text}export{e as t};

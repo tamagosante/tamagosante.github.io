@@ -1,0 +1,1 @@
+var e=`messageLift 600ms ease-in-out forwards`;export{e as t};
