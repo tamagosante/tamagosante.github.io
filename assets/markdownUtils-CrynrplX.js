@@ -1,0 +1,4 @@
+import{b as e,c as t,l as n}from"./markdown-DpBn2h6T.js";import{o as r}from"./typescript-OVNlME_F.js";import{t as i}from"./highlightStatic-8bibM_Nb.js";import{n as a,t as o}from"./fenceLanguages-Zlo9ohUp.js";/* empty css                           */function s(t,n){return t.map(t=>t.map(t=>{let r=e(t.value),i=n(t.scope);return i.length>0?`<span class="${i.join(` `)}">${r}</span>`:r}).join(``)).join(`
+`)}function c(e){return{rootClass:e.rootClass,highlight(t,n){let r=e.tokenize(t,n);return r?s(r,e.scopeToClasses):null}}}var l=c({rootClass:o,tokenize(e,t){let n=a(e);return n?i(t,n):null},scopeToClasses:r});function u(e,t,n){let r=e.split(`
+`),i=0;for(let e=0;e<r.length;e++){let a=/^(\s*)- \[([ xX])\] ?(.*)$/.exec(r[e]);if(a){if(i===t)return r[e]=`${a[1]}- [${n?`x`:` `}] ${a[3]}`,r.join(`
+`);i++}}return e}function d(e){return n(e,{fenceHighlighter:l})}function f(e){return t(e,{fenceHighlighter:l})}export{d as n,u as r,f as t};

@@ -1,0 +1,1 @@
+import{Od as e,fu as t}from"./CanvasNodeBuilderV2-D5zk9XhQ.js";var n=()=>({sourceWords:[],targetWords:[],pairs:[]}),r=e=>!!e&&t(e,`vocab-pairing:node`),i=e=>r(e)?e.data?.payload:void 0,a=e=>e?.pluginType===`vocab-pairing:node`?e.detail??null:null,o=t=>({pluginType:e,payload:t});export{o as a,r as i,a as n,i as r,n as t};

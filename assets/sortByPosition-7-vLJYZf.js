@@ -1,0 +1,1 @@
+function e(e,t,n){let r=t===`x`?`y`:`x`;return[...e].sort((e,i)=>{let a=e[t]-i[t];return Math.abs(a)>n?a:e[r]-i[r]})}function t(t,n=10){return e(t,`x`,n)}function n(t,n=10){return e(t,`y`,n)}export{n,t};

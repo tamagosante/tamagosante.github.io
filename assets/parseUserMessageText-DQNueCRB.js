@@ -1,0 +1,1 @@
+import{t as e}from"./slashCommand-aW3Sy8iS.js";var t=`<command-`;function n(n){if(!n.trimStart().startsWith(t))return{command:null,body:n};let r=e(n);return r?{command:r.name,body:r.args??``}:{command:null,body:n}}export{n as t};

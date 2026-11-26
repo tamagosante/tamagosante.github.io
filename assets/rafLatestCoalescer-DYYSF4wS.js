@@ -1,0 +1,1 @@
+var e=e=>{let t=null,n=null,r=()=>{n!==null&&cancelAnimationFrame(n),n=null},i=()=>{n=null;let r=t;t=null,r!==null&&e(r)};return{queue:e=>{t=e,n===null&&(n=requestAnimationFrame(i))},peek:()=>t,flush:()=>{r(),i()},cancel:()=>{r(),t=null}}};export{e as t};

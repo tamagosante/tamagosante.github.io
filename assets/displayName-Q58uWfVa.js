@@ -1,0 +1,1 @@
+import"./CanvasConfigurationV2-C_oB7-hU.js";var e=`-home-`,t=/\/[a-f0-9]{8}[a-f0-9-]*$/i,n=/[-/]/;function r(r,i=3){if(!r.startsWith(e))return r;let a=r.replace(t,``).split(n).filter(Boolean);return i>0&&a.length>i?a.slice(i).join(`/`):a.length===0?r:a.join(`/`)}var i=(e,t)=>e.customName||r(e.name,t);export{i as n,r as t};

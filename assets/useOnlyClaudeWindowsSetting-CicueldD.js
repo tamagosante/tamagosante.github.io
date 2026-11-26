@@ -1,0 +1,1 @@
+import{t as e}from"./react-vendor-UMyPbY_A.js";import{t}from"./useCaptureSetting-Cilp38r9.js";var n=e(),r=!0;function i(){let e=(0,n.c)(3),[r,i]=t(`onlyClaudeWindows`,a),o;return e[0]!==r||e[1]!==i?(o={enabled:r,setEnabled:i},e[0]=r,e[1]=i,e[2]=o):o=e[2],o}function a(){return r}export{i as t};

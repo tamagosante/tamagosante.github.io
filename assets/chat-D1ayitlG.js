@@ -1,0 +1,1 @@
+var e=[`container`,`canvasNodes`],t=`canvasNodes`,n={container:`Container (chat bubble)`,canvasNodes:`Canvas text nodes`},r=[`left`,`down`],i={left:`Left of thread`,down:`Below thread`},a=[`right`,`left`],o={right:`Right of selected node`,left:`Left of selected node`};export{n as a,e as i,r as n,a as o,i as r,o as s,t};

@@ -1,0 +1,1 @@
+var e={ID:`force-graph-grid`,LABEL:`Force Graph Grid`,DESCRIPTION:`The whole canvas as a d3-force workspace (GFGM) — the real force-graph surface, mounted standalone.`,ORDER:20260726},t={NAMESPACE:`force-graph-grid`,KEYS:{GRAPH:`canvasForceGraph`}},n=1e3,r={PARAM:`seed`,DEFAULT_COUNT:2e3,MAX_COUNT:1e4,GROW_STEP:150,RNG_SEED:185181};export{t as i,n,r,e as t};

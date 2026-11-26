@@ -1,0 +1,1 @@
+var e={paragraph:/\n\n+/,line:/\n/,comma:/,/,period:/\./,whitespace:/\s+/};function t(t,n){if(!t)return[];let r=e[n];return t.split(r).map(e=>e.trim()).filter(Boolean)}var n={below:`below`,above:`above`};export{t as n,n as t};

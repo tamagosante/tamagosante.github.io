@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{h as t}from"./forms-DK74bGvg.js";import{st as n}from"./CanvasConfigurationV2-C_oB7-hU.js";import{i as r,n as i}from"./live-sessions-store-P_3O4CPF.js";var a=e(t(),1),o=n.scope,s=e=>r(o,e),c=()=>i(o),l=()=>(0,a.useSyncExternalStore)(s,c);export{l as t};

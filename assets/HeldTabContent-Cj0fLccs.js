@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{h as t}from"./forms-DK74bGvg.js";import{t as n}from"./react-vendor-UMyPbY_A.js";import{Vt as r}from"./radix-ui-DAihrvqi.js";var i=n(),a=e(t(),1),o=r(),s=(0,a.memo)(function(e){let t=(0,i.c)(2),{children:n}=e,r;return t[0]===n?r=t[1]:(r=(0,o.jsx)(o.Fragment,{children:n}),t[0]=n,t[1]=r),r},(e,t)=>!t.isShown);export{s as t};

@@ -1,0 +1,1 @@
+import{Ju as e,fu as t}from"./CanvasNodeBuilderV2-D5zk9XhQ.js";import{p as n}from"./logicNodeConstants-UzIS-q8U.js";var r=()=>({gate:n}),i=r(),a=e=>!!e&&t(e,`logic:node`),o=e=>(a(e)?e.data?.payload:void 0)??i,s=t=>({pluginType:e,payload:t});export{s as i,o as n,a as r,r as t};

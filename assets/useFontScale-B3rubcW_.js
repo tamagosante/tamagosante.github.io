@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{h as t}from"./forms-DK74bGvg.js";import{t as n}from"./FontScaleProvider-BXdse7ev.js";var r=e(t(),1);function i(){return(0,r.useContext)(n)}export{i as t};

@@ -1,0 +1,1 @@
+import{t as e}from"./diContainer-Df3jQ18v.js";import{n as t}from"./sampler-CrtF0J_P.js";var n=(n,r)=>t({log:(t,r)=>void e.clientLogsApiClient.sendLogs(t,r,n),takeCounters:r});export{n as t};

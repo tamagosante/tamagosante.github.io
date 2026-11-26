@@ -1,0 +1,1 @@
+import{h as e,i as t,n,p as r,r as i}from"./VimInputHandlerV2-nvgnIKot.js";import{l as a,u as o}from"./strings-DbiFOK4R.js";function s(){let s=window.__vimContainer;if(s)return s;let c=a.createContainer();return o.register(c),r.register(c),t.register(c),e.register(c),i.register(c),n.register(c),window.__vimContainer=c,c}export{s as t};

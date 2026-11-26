@@ -1,1 +1,0 @@
-import{t as e}from"./react-TW7aDlgo.js";var t=e(e=>({slot:null,isDocked:!1,setSlot:t=>e({slot:t}),setDocked:t=>e({isDocked:t})}));export{t};

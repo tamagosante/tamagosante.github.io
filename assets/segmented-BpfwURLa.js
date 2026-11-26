@@ -1,0 +1,1 @@
+import{t as e}from"./utils-DB5AfRrk.js";var t=e(`data-[state=off]:text-muted-foreground data-[state=off]:hover:text-foreground`,`data-[state=on]:bg-background data-[state=on]:text-foreground data-[state=on]:shadow-sm`,`data-[state=on]:hover:bg-background`),n=`w-full justify-start rounded-md border border-border bg-muted p-0.5`;export{n,t};

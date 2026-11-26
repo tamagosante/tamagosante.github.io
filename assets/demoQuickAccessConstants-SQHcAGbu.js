@@ -1,0 +1,1 @@
+import{Li as e}from"./icons-BNK2C0lu.js";var t=`demo-quick-access`,n=`Quick access demos…`,r=`Navigation`,i=`Demo Quick Access`,a=`demo-quick-access`,o={width:460,height:520},s=`Search demos… (Enter to open)`,c=`No demos found`,l=e;export{l as a,i as c,c as i,a as l,t as n,s as o,n as r,o as s,r as t};

@@ -1,0 +1,1 @@
+var e={one:`one`,level:`level`,deep:`deep`};function t(t){return t.altKey?t.shiftKey?e.deep:e.level:e.one}function n(e,t){let n=new Set(e);return n.delete(t)||n.add(t),n}function r(e,t,n){let r=new Set(e);for(let e of t)n?r.add(e):r.delete(e);return r}export{t as i,r as n,n as r,e as t};

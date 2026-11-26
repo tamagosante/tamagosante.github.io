@@ -1,0 +1,1 @@
+import{t as e}from"./react-CCB6M0X3.js";var t=e((e,t)=>({isOpen:!1,triggerPosition:void 0,open:t=>e({isOpen:!0,triggerPosition:t}),close:()=>e({isOpen:!1}),toggle:e=>t().isOpen?t().close():t().open(e)}));export{t};

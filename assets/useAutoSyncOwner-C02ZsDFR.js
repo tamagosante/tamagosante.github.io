@@ -1,1 +1,0 @@
-import{r as e}from"./rolldown-runtime-XKyaHtl9.js";import{f as t}from"./forms-B7BVNXre.js";import{t as n}from"./react-vendor-AaAAdbhg.js";import{t as r}from"./autoSyncOwnerGate-D6ZOgHBB.js";var i=n(),a=e(t(),1);function o(){let e=(0,i.c)(1),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=[],e[0]=t):t=e[0],(0,a.useEffect)(s,t)}function s(){return r()}export{o as t};

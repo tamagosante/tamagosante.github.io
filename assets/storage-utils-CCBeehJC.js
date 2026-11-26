@@ -1,0 +1,1 @@
+var e=(e,t)=>{try{let n=localStorage.getItem(e);return n===null?t:JSON.parse(n)}catch(n){return console.warn(`Failed to parse localStorage item "${e}":`,n),t}},t=(e,t)=>{try{return localStorage.setItem(e,JSON.stringify(t)),!0}catch(t){return console.error(`Failed to save to localStorage "${e}":`,t),!1}};export{t as n,e as t};

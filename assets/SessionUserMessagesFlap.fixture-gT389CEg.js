@@ -1,0 +1,1 @@
+import{Vt as e}from"./radix-ui-DAihrvqi.js";import{t}from"./SessionUserMessagesFlap-BX0WueII.js";var n=e(),r={SessionUserMessagesFlap:(0,n.jsx)(`div`,{"data-test":`session-user-messages-flap-fixture`,className:`flex flex-col w-[360px] h-[280px]`,children:(0,n.jsx)(t,{sessionId:`58ff1b00-45c5-4334-b11d-95b9df9f474a`})})};export{r as fixtures};

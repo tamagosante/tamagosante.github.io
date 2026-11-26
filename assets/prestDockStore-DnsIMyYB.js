@@ -1,0 +1,1 @@
+import{t as e}from"./react-CCB6M0X3.js";var t=e(e=>({slot:null,isDocked:!1,setSlot:t=>e({slot:t}),setDocked:t=>e({isDocked:t})}));export{t};
